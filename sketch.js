@@ -5,14 +5,14 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
   
 var score =0;
-var particles;
+var particles = [];
 var turn = 0;
 var plinkos = [];
 var divisions = [];
 var ground;
 var divisionHeight=300;
 
-//var particle;
+var particle;
 var gameState = play;
 
 function setup() {
